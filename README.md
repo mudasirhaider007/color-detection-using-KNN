@@ -20,12 +20,23 @@ Color detection plays a vital role in computer vision, image processing, and hum
 - **Tools:** Python, OpenCV, NumPy, scikit-learn
 - **Dataset Split:** 70% training, 30% testing
 
+## 🧠 Methodology Overview
+The proposed system uses the K-Nearest Neighbor (KNN) algorithm to classify colors based on RGB values. Each color is represented as a point in a three-dimensional RGB space, and classification is performed using Euclidean distance with majority voting.
+
+<p align="center">
+  <img src="images/knn_color_detection_workflow.png" width="650"/>
+</p>
+
+*Figure: Workflow of the KNN-based RGB color detection system, including RGB feature extraction, distance calculation, and classification.*
+
+
 ## 📊 Results
 - **Best Accuracy:** 93.089%
 - **Optimal K Value:** 5
 - **Detected Colors:**  
   Black, Blue, Brown, Forest Green, Green, Navy, Orange, Pink, Red, Violet, White, Yellow
 - Reliable detection under blur and masking conditions
+
 
 ## 🚀 Applications
 - Real-time color recognition
