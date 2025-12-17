@@ -26,7 +26,7 @@ The proposed system uses the K-Nearest Neighbor (KNN) algorithm to classify colo
 <p align="center">
   <img src="colorpic.jpg" width="650"/>
   <img src="black 1.PNG" width="650"/>
-  <img src="blur 1.PNG" width="650
+  <img src="blur 1.PNG" width="650"/>
 </p>
 
 *Figure: Workflow of the KNN-based RGB color detection system, including RGB feature extraction, distance calculation, and classification.*
