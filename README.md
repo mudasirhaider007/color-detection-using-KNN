@@ -24,7 +24,7 @@ Color detection plays a vital role in computer vision, image processing, and hum
 The proposed system uses the K-Nearest Neighbor (KNN) algorithm to classify colors based on RGB values. Each color is represented as a point in a three-dimensional RGB space, and classification is performed using Euclidean distance with majority voting.
 
 <p align="center">
-  <img src="images/knn_color_detection_workflow.png" width="650"/>
+  <img src="colorpic.jpg" width="650"/>
 </p>
 
 *Figure: Workflow of the KNN-based RGB color detection system, including RGB feature extraction, distance calculation, and classification.*
